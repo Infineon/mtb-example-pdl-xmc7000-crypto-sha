@@ -114,7 +114,9 @@ CY_ALIGN(4) uint8_t hash[MESSAGE_DIGEST_SIZE];
 * Function Name: main
 ********************************************************************************
 * Summary:
-* Main function
+* This is the main function for CM7 CPU. It's shows how to generate a 32-byte 
+* hash value or message digest for an arbitrary user input message with the 
+* SHA-2 algorithm using the Cryptographic hardware block in the MCU.
 *
 * Parameters:
 *  void
