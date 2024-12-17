@@ -168,8 +168,6 @@ int main(void)
     /* Enable the Crypto block. */
     Cy_Crypto_Core_Enable(CRYPTO);
 
-    SCB_DisableDCache();
-
     for (;;)
     {
         switch (msg_status)
